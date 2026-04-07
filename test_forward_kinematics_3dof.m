@@ -16,4 +16,4 @@ assert(abs(p2(1) - 0.0) < tol, 'Case 2 failed: x mismatch');
 assert(abs(p2(2) - 3.0) < tol, 'Case 2 failed: y mismatch');
 assert(abs(T2(2,4) - 3.0) < tol, 'Case 2 failed: T(2,4) mismatch');
 
-disp('All tests passed.')
+disp('All tests passed. Work done: code ran successfully.')
