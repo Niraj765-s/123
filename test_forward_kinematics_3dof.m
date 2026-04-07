@@ -12,8 +12,8 @@ assert(abs(T1(1,4) - 3.0) < tol, 'Case 1 failed: T(1,4) mismatch');
 
 % Case 2: first joint at 90 deg, others zero -> x = 0, y = 3
 [T2, p2] = forward_kinematics_3dof(pi/2, 0, 0, l1, l2, l3);
-assert(abs(p2(1) - 0.0) < 1e-8, 'Case 2 failed: x mismatch');
-assert(abs(p2(2) - 3.0) < 1e-8, 'Case 2 failed: y mismatch');
-assert(abs(T2(2,4) - 3.0) < 1e-8, 'Case 2 failed: T(2,4) mismatch');
+assert(abs(p2(1) - 0.0) < tol, 'Case 2 failed: x mismatch');
+assert(abs(p2(2) - 3.0) < tol, 'Case 2 failed: y mismatch');
+assert(abs(T2(2,4) - 3.0) < tol, 'Case 2 failed: T(2,4) mismatch');
 
 disp('All tests passed.')

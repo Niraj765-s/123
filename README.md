@@ -1,5 +1,5 @@
 # 123
-robot kinamatics
+robot kinematics
 
 Simple 3-DOF robot forward kinematics in MATLAB/Octave.
 
