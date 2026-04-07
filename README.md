@@ -20,5 +20,4 @@ test_forward_kinematics_3dof
 
 Expected success output includes:
 - `Running test_forward_kinematics_3dof...`
-- `All tests passed.`
-- `Work done: code ran successfully.`
+- `All tests passed. Work done: code ran successfully.`
